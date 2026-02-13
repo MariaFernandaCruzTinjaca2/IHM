@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.info{
+    background-color: black;  
+    padding: 1rem 1rem;
+    width: auto;
+
+    justify-content: center;
+
+
+}
+.info p{
+    color: aliceblue;
+}
+.navBar
+{
+    background-color: rgb(rgb(106, 106, 170));  
+    padding: 1rem 2rem;
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 10px;
+}
+.menu img{
+    width: 2.5vw;
+}
+.menu a{
+display: flex;
+align-items: center;
+}
+.navBar input
+{
+    width: 15vw;
+    border-radius: 10px;
+}
